@@ -15,6 +15,5 @@ app.listen(config.APP_PORT, function(err) {
 app.get("/", function(req, res) {
     res.sendFile("./public/index.html");
 })
-fff
 
 routes(app);

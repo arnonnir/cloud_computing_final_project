@@ -1,8 +1,16 @@
-<html>
+<html ng-app="detectImageLabelsApp">
 <head>
     <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="app.css"/>
+    <script src="modules.js"></script>
+    <script src="pages/login/login.js"></script>
 </head>
 <body>
-hello world!
+    <div ng-view></div>
 </body>
 </html>
