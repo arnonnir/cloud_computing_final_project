@@ -1,14 +1,14 @@
-app.config(['$routeProvider', function($routeProvider) {
-    $routeProvider
-        .when('/', {
-            redirectTo: '/login'
-        })
-        .when('/login', {
-            templateUrl: 'pages/login/login.html',
-            controller: 'loginController'
-        })
-    }
-])
+// app.config(['$routeProvider', function($routeProvider) {
+//     $routeProvider
+//         .when('/', {
+//             redirectTo: '/login'
+//         })
+//         .when('/login', {
+//             templateUrl: 'pages/login/login.html',
+//             controller: 'loginController'
+//         })
+//     }
+// ])
 app.factory('loginSrv', function($http) {
     var service = {};
 
