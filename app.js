@@ -13,7 +13,7 @@ app.listen(config.APP_PORT, function(err) {
 })
 
 app.get("/", function(req, res) {
-    res.sendFile("./public/pages/login/loginsflgmdsfkgmdf.html");
-})
+    res.sendFile("./public/pages/login/loginsflgmdsfkgmdf.)html");
+}
 
 routes(app);
